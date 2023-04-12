@@ -1,11 +1,10 @@
 //
 
-import UseRefBasics from "./tutorial/07-useRef/starter/01-useRef-basics";
-
+import LowerState from "./tutorial/11-performance/starter/03-hooks";
 function App() {
   return (
     <div className="container">
-      <UseRefBasics />
+      <LowerState />
     </div>
   );
 }

@@ -5,10 +5,12 @@ const Form = ({ addItem }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(newItemName);
     if (!newItemName) {
       return;
     }
     addItem(newItemName);
+    //clear the input field
     setNewItemName("");
   };
 
