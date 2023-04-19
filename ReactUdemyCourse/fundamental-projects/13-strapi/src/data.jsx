@@ -1,18 +1,17 @@
 import {
   Fa500Px,
-  FaBtc,
-  FaBtc,
-  FaBtc,
+  FaAccusoft,
+  FaAdversal,
+  FaAvianex,
   FaBitcoin,
   FaBtc,
-  FaBtc,
+  FaCodiepie,
   FaDocker,
   FaGithubSquare,
 } from "react-icons/fa";
-
 import { nanoid } from "nanoid";
 
-const sub_links = [
+const sublinks = [
   {
     pageId: nanoid(),
     page: "product",
@@ -26,13 +25,13 @@ const sub_links = [
       {
         id: nanoid(),
         label: "content",
-        icon: <Fa500Px />,
+        icon: <FaAccusoft />,
         url: "/product/content",
       },
       {
         id: nanoid(),
         label: "roles",
-        icon: <Fa500Px />,
+        icon: <FaAdversal />,
         url: "/product/roles",
       },
     ],
@@ -44,7 +43,7 @@ const sub_links = [
       {
         id: nanoid(),
         label: "developers",
-        icon: <Fa500Px />,
+        icon: <FaAvianex />,
         url: "/solutions/developers",
       },
       {
@@ -61,9 +60,9 @@ const sub_links = [
       },
       {
         id: nanoid(),
-        label: "e-commerce",
-        icon: <Fa500Px />,
-        url: "/solutions/e-commerce",
+        label: "ecommerce",
+        icon: <FaCodiepie />,
+        url: "/solutions/ecommerce",
       },
     ],
   },
@@ -87,4 +86,4 @@ const sub_links = [
   },
 ];
 
-export default sub_links;
+export default sublinks;
